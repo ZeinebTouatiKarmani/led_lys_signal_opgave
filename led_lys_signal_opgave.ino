@@ -18,12 +18,26 @@ void loop() {
   Bivej_signal.setred(LOW);
   Bivej_signal.setyellow(LOW);
   Bivej_signal.setgreen(HIGH);
-  delay(1000);
+  delay(3000);
+  Hovedvej_signal.setred(HIGH);
+  Hovedvej_signal.setyellow(HIGH);
+  Hovedvej_signal.setgreen(LOW);
+  Bivej_signal.setred(LOW);
+  Bivej_signal.setyellow(HIGH);
+  Bivej_signal.setgreen(LOW);
+  delay(3000);
   Hovedvej_signal.setred(LOW);
   Hovedvej_signal.setyellow(LOW);
   Hovedvej_signal.setgreen(HIGH);
   Bivej_signal.setred(HIGH);
   Bivej_signal.setyellow(LOW);
   Bivej_signal.setgreen(LOW);
-  delay(1000);
+  delay(3000);
+  Hovedvej_signal.setred(LOW);
+  Hovedvej_signal.setyellow(HIGH);
+  Hovedvej_signal.setgreen(LOW);
+  Bivej_signal.setred(HIGH);
+  Bivej_signal.setyellow(HIGH);
+  Bivej_signal.setgreen(LOW);
+  delay(3000);
 }
